@@ -36,7 +36,7 @@ def formula7(formula1_result, formula2_result, formula3_result, x_m):
 def formula8(formula2_result, formula3_result, array_len, value):
     f = formula2_result
     s = formula3_result / math.sqrt(array_len)
-    third = t(value, array_len - 1)
+    third = t.pdf(value, array_len - 1)
     return f + s * third
 
 
@@ -90,5 +90,5 @@ def formula16(alpha, Tp, T, formula2_result, formula3_result, array_len, x_m, k)
 
 
 def formula17(formula1_result, formula2_result, formula3_result, x_m, T):
-    f = 4*formula7(formula1_result, formula2_result, formula3_result, x_m)
-    return f/T
+    f = 4 * formula7(formula1_result, formula2_result, formula3_result, x_m)
+    return f / T
