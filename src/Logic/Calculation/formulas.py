@@ -4,7 +4,7 @@ from scipy.stats.distributions import chi2
 
 
 def formula1(RE, k):
-    return (1 / (math.sqrt(3))) * (RE / k)
+    return (1 / (math.sqrt(3))) * (RE / 2)
 
 
 def formula2(x_array):

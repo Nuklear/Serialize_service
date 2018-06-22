@@ -1,0 +1,1269 @@
+{
+    "workspaceId": "5b0eb5a5002bc52b25bdf276",
+    "validationActId": "5b0ebd2e002bc53bac7bbfea",
+    "name": "Inited VA",
+    "creationDate": 1527692590275,
+    "creatorId": "5ae19ec3ff82a25513849323",
+    "status": "IN_PROGRESS",
+    "lastEdited": 1528807023803,
+    "defaultEvaluationMethod": null,
+    "measurementTask": {
+        "name": "Inited measurement task",
+        "characteristics": [
+            {
+                "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                "code": "k2031",
+                "name": "Some characteristic",
+                "nominalValue": 18.45,
+                "type": 200,
+                "unit": "mm",
+                "lowerSpecificationLimit": {
+                    "value": 18.3,
+                    "naturalBoundary": false
+                },
+                "upperSpecificationLimit": {
+                    "value": 18.7,
+                    "naturalBoundary": false
+                },
+                "lowerProcessLimit": {
+                    "value": -0.15,
+                    "naturalBoundary": false
+                },
+                "upperProcessLimit": {
+                    "value": 0.25,
+                    "naturalBoundary": false
+                },
+                "processCapabilityIndex": 0
+            },
+            {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "code": "k2032",
+                "name": "Some characteristic2",
+                "nominalValue": 18.45,
+                "type": 200,
+                "unit": "mm",
+                "lowerSpecificationLimit": {
+                    "value": 18.3,
+                    "naturalBoundary": false
+                },
+                "upperSpecificationLimit": {
+                    "value": 18.7,
+                    "naturalBoundary": false
+                },
+                "lowerProcessLimit": {
+                    "value": -0.15,
+                    "naturalBoundary": false
+                },
+                "upperProcessLimit": {
+                    "value": 0.25,
+                    "naturalBoundary": false
+                },
+                "processCapabilityIndex": 0
+            }
+        ]
+    },
+    "measurementSystem": {
+        "code": "1234",
+        "name": "Inited measurement system",
+        "characteristics": [
+            {
+                "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                "measurementMethod": "ABSOLUTE",
+                "measurementType": "CONTINUOUS",
+                "resolution": 0.001
+            },
+            {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "measurementMethod": "ABSOLUTE",
+                "measurementType": "CONTINUOUS",
+                "resolution": 0.001
+            }
+        ],
+        "masterObjects": [
+            {
+                "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                "type": "MASTER",
+                "code": "4321",
+                "name": "Inited master object name",
+                "characteristicDimensions": [
+                    {
+                        "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                        "value": 0
+                    },
+                    {
+                        "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                        "value": 0
+                    }
+                ],
+                "calibrationDate": 1527692590282,
+                "note": null
+            },
+            {
+                "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                "type": "MEASURED_PART",
+                "code": "4322",
+                "name": "Inited master object name2",
+                "characteristicDimensions": [
+                    {
+                        "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                        "value": 0
+                    },
+                    {
+                        "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                        "value": 0
+                    }
+                ],
+                "calibrationDate": 1527692590282,
+                "note": null
+            }
+        ],
+        "uncertainties": null
+    },
+    "measurementProcess": {
+        "characteristics": [
+            {
+                "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                "greatestInfluenceFactor": "AV",
+                "uncertainties": [
+                    {
+                        "name": "AV",
+                        "value": 0,
+                        "manualInput": true,
+                        "active": true,
+                        "notes": null
+                    },
+                    {
+                        "name": "EVO",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": true,
+                        "notes": null
+                    },
+                    {
+                        "name": "XX",
+                        "value": 0,
+                        "manualInput": true,
+                        "active": false,
+                        "notes": null
+                    },
+                    {
+                        "name": "YY",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": false,
+                        "notes": null
+                    },
+                    {
+                        "name": "ZZ",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": false,
+                        "notes": null
+                    }
+                ],
+                "temperatureInfluence": false,
+                "temperatureInfluenceMethod": "METHOD_1",
+                "temperatureInfluenceParams": {
+                    "stringParam": null,
+                    "numericalParam": 123,
+                    "booleanParam": false
+                },
+                "material": "STILL"
+            },
+            {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "greatestInfluenceFactor": "AV",
+                "uncertainties": [
+                    {
+                        "name": "AV",
+                        "value": 0,
+                        "manualInput": true,
+                        "active": true,
+                        "notes": null
+                    },
+                    {
+                        "name": "EVO",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": true,
+                        "notes": null
+                    },
+                    {
+                        "name": "XX",
+                        "value": 0,
+                        "manualInput": true,
+                        "active": false,
+                        "notes": null
+                    },
+                    {
+                        "name": "YY",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": false,
+                        "notes": null
+                    },
+                    {
+                        "name": "ZZ",
+                        "value": 0,
+                        "manualInput": false,
+                        "active": false,
+                        "notes": null
+                    }
+                ],
+                "temperatureInfluence": false,
+                "temperatureInfluenceMethod": "METHOD_1",
+                "temperatureInfluenceParams": {
+                    "stringParam": null,
+                    "numericalParam": 123,
+                    "booleanParam": false
+                },
+                "material": "STILL"
+            }
+        ]
+    },
+    "experimentType1Data": {
+        "table": [
+            {
+                "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                "cells": [
+                    {
+                        "repetition": 1,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 2,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 3,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 4,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 5,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 6,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 7,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 8,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 9,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 10,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 11,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 12,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 13,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 14,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 15,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 16,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 17,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 18,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 19,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 20,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 21,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 22,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 23,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 24,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 25,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 26,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 27,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 28,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 29,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 30,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 31,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 32,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 33,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 34,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 35,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 36,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 37,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 38,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 39,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 40,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 41,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 42,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 43,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 44,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 45,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 46,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 47,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 48,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 49,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 50,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 1,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 2,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 3,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 4,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 5,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 6,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 7,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 8,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 9,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 10,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 11,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 12,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 13,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 14,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 15,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 16,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 17,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 18,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 19,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 20,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 21,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 22,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 23,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 24,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 25,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 26,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 27,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 28,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 29,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 30,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 31,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 32,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 33,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 34,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 35,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 36,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 37,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 38,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 39,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 40,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 41,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 42,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 43,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 44,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 45,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 46,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 47,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 48,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 49,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 50,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    }
+                ],
+                "u_ENV": null
+            },
+            {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "cells": [
+                    {
+                        "repetition": 1,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 2,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 3,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 4,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 5,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 6,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 7,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 8,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 9,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 10,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 11,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 12,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 13,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 14,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 15,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 16,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 17,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 18,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 19,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 20,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 21,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 22,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 23,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 24,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 25,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 26,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 27,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 28,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 29,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 30,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 31,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 32,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 33,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 34,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 35,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 36,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 37,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 38,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 39,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 40,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 41,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 42,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 43,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 44,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 45,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 46,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 47,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 48,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 49,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 50,
+                        "masterObjectId": "7df64fda-3672-4bc4-b11d-3b9a50d5f90a",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 1,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 2,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 3,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 4,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 5,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 6,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 7,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 8,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 9,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 10,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 11,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 12,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 13,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 14,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 15,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 16,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 17,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 18,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 19,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 20,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 21,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 22,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 23,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 24,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 25,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 26,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 27,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 28,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 29,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 30,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 31,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 32,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 33,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 34,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 35,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 36,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 37,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 38,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 39,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 40,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 5.999
+                    },
+                    {
+                        "repetition": 41,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6
+                    },
+                    {
+                        "repetition": 42,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 43,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 44,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 45,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 46,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 47,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 48,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.002
+                    },
+                    {
+                        "repetition": 49,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    },
+                    {
+                        "repetition": 50,
+                        "masterObjectId": "8b976232-cb9e-4839-ab18-32939cf5a37b",
+                        "value": 6.001
+                    }
+                ],
+                "u_ENV": null
+            }
+        ]
+    },
+    "experimentType2Data": {
+        "tableConstructionMethod": "RANDOM",
+        "table": [
+            {
+                "characteristicId": "03816e06-d7cd-4d2c-8632-6ce33cedf788",
+                "cells": [
+                    {
+                        "level": 0,
+                        "part": 0,
+                        "repetition": 0,
+                        "value": 0
+                    }
+                ],
+                "u_AV": null
+            },
+            {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "cells": [
+                    {
+                        "level": 0,
+                        "part": 0,
+                        "repetition": 0,
+                        "value": 0
+                    }
+                ],
+                "u_AV": null
+            }
+        ]
+    }
+}

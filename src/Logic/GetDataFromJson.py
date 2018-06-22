@@ -3,7 +3,6 @@ import json
 
 class GetDataFromJson(object):
     def __init__(self, data_json):
-#        self.dict_json = json.loads(data_json)
         self.dict_json = data_json
 
     def get_data_array(self, id):

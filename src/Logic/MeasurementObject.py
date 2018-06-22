@@ -1,4 +1,4 @@
-from Rest_service.Logic.Calculation.formulas import *
+from src.Logic.Calculation.formulas import *
 
 
 class MeasurementObject(object):
@@ -40,3 +40,37 @@ class MeasurementObject(object):
             self.sigma_mult
         )
         return [first, second]
+
+    def get_result_json(self):
+        j = {
+                "characteristicId": "0a662382-6c1e-4386-8128-ee0f4b9a1ec9",
+                "iso": {
+                    "qms": formula7(
+                                self.first_formula_result,
+                                self.second_formula_result,
+                                self.third_formula_result,
+                                self.real_dimension,
+                                self.tolerance
+                            ),
+                    "outliers": 0,
+                    "uncertainties": [
+                        {
+                            "name": "ENV",
+                            "value": self.third_formula_result,
+                            "manualInput": None,
+                            "active": None,
+                            "notes": None
+                        },
+                        {
+                            "name": None,
+                            "value": None,
+                            "manualInput": None,
+                            "active": None,
+                            "notes": null
+                        }
+                    ],
+                    "ssigma": self.third_formula_result
+                },
+                "msa": null,
+                "vda": null
+            }

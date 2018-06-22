@@ -1,5 +1,5 @@
-from Rest_service.Logic.MeasurementObject import MeasurementObject
-from Rest_service.Logic.GetDataFromJson import GetDataFromJson
+from src.Logic.MeasurementObject import MeasurementObject
+from src.Logic.GetDataFromJson import GetDataFromJson
 
 
 def get_data_from_json(raw_json):
