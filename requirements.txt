@@ -29,5 +29,5 @@ SQLAlchemy==1.2.8
 sqlalchemy-validation==0.4.0a0
 ujson==1.35
 urllib3==1.23
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 yarl==1.2.5
