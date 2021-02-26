@@ -1,4 +1,4 @@
-aiohttp==3.3.2
+aiohttp==3.7.4
 aiohttp-ultrajson==0.1.0
 alembic==0.9.9
 async-timeout==3.0.0
